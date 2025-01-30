@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #fff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 32px 0;
+    border-radius: 5px;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+    width: 100vw;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+footer {    
+    background: #fff;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.inici {
+    margin: 0 auto;
+    width: 650px;
+    height: auto;
+
+    align-items: center;
+    text-align: center;
+}
+
+.inici__title {
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+
+    margin: 50px auto;
+
+    font-size: 50px;
+}
+
+.img__first {
+    width: 650px;
+    height: 430px;
+
+    margin: 0 auto;
+}
+
+.inici__text {
+    font-size: 20px;
+    margin: 32px auto;
+
+    text-align: left;
+    font-weight: 200;
+}
+
+.line {
+    margin: 10px 65px;
+}
+
+.button__header__foto {
+    text-align: left;
+    background-image: url(/Users/danman/Downloads/logocampañaproadolecenciasaludable.png);
+    background-size: cover;
+
+    width: 240px;
+    height: 64px;
+
+    margin: 15px;
+    display: inline-block;
+}
+
+.button__header {
+    margin: 0 15px;
+    display: inline-block;
+    
+    position: relative;
+}
+
+.button__header:hover {
+    color: #ff0000;
+    transition: .3s;    
+}
+
+.button__header::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    opacity: 0;
+
+    background-color: #ff0000;
+
+    position: absolute;
+
+    transition: 0.3s;   
+}
+
+.button__header:hover::after {
+    opacity: 1;
+}
+
+.offer {
+    width: 650px;
+    text-align: left;
+    font-size: 26px;
+    text-decoration: none;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__title {
+    text-align: left;
+    font-weight: 300;
+
+    line-height: 88px;
+}
+
+.offer__foto {
+    width: 182px;
+    height: 182px;
+
+    margin-top: 50px;
+}
+
+.offer__button {
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+
+    display: block;
+
+    margin: 0 510px 25px;
+    width: 145px;
+    padding: 16px 32px;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.line__offer {
+    width: 650px;
+}
+
+.horario {
+    text-align: left;
+}
+
+.nom, .email, .missatge, .contrasenya, .usuari {
+    width: 500px;
+    height: 15px;
+}
+
+.submit {
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px 35px;
+    width: 145px;
+    padding: 16px 32px;
+    border-radius: 50px;
+
+    cursor: pointer; 
+}
+
+.contacte {
+    margin-left: 10px;
+}
+
+.button__footer__foto {
+    width: 24px;
+    height: 24px;
+}
+
+.button__footer {
+    background-image: url(file:///Users/danman/Downloads/insta.jpeg);
+    background-size: cover;
+
+    cursor: pointer;
+
+    width: 24px;
+    height: 24px;
+
+    border: none;
+
+    margin-right: 5px;
+}
+
+.button__footer__2 {
+    background-image: url(file:///Users/danman/Downloads/x_logo.png);
+    background-size: cover;
+
+    cursor: pointer;
+
+    width: 24px;
+    height: 24px;
+
+    border: none;
+
+    text-decoration: none;
+}
